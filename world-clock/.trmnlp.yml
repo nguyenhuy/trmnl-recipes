@@ -11,4 +11,28 @@ custom_fields: {}
 
 # override variables
 variables:
-  trmnl: {}
+  trmnl: {
+    device: {
+      height: 768,
+      width: 1024
+    },
+    plugin_settings: {
+        custom_fields_values: {
+          "name_1": "Tokyo",
+          "name_2": "San Francisco",
+          "name_3": "Ho Chi Minh",
+          "name_4": "New York",
+          "name_5": "",
+          "name_6": "",
+          "home_name": "Helsinki",
+          "hour_cycle": "h23",
+          "time_zone_1": "Asia/Tokyo",
+          "time_zone_2": "America/Los_Angeles",
+          "time_zone_3": "Asia/Bangkok",
+          "time_zone_4": "America/New_York",
+          "time_zone_5": "",
+          "time_zone_6": "",
+          "home_time_zone": "Europe/Helsinki"
+        }
+    }
+  }

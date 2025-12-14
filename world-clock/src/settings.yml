@@ -140,5 +140,5 @@ custom_fields:
   description: Name of this time zone, e.g. Work
   placeholder: Work
   optional: true
-name: Horizontal World Clock
+name: Huy's Horizontal World Clock
 refresh_interval: 60

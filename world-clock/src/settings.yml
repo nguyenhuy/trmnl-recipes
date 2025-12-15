@@ -7,7 +7,7 @@ polling_verb: get
 polling_url: ''
 polling_headers: ''
 polling_body: ''
-id: 197345
+id: 197370
 custom_fields:
 - keyname: doesnt_matter
   name: About This Plugin
@@ -25,19 +25,17 @@ custom_fields:
   description: Select a time format
 - keyname: home_time_zone
   field_type: time_zone
+  default: ''
   name: Home Time Zone
   description: Where are you located?
-  optional: true
-  default: ''
 - keyname: home_name
   field_type: string
+  default: Home
   name: Home name
   description: Name of your home
-  placeholder: Home
-  default: Home
 - keyname: time_zone_1
   field_type: time_zone
-  default: Etc/UTC
+  default: ''
   name: Time Zone 1
   description: Time zone to display
   optional: true
@@ -48,14 +46,13 @@ custom_fields:
     - time_zone_2
 - keyname: name_1
   field_type: string
+  default: ''
   name: Time Zone 1 Name
   description: Name of this time zone, e.g. Work
-  placeholder: Work
-  default: UTC
   optional: true
 - keyname: time_zone_2
   field_type: time_zone
-  default: Asia/Tokyo
+  default: ''
   name: Time Zone 2
   description: Time zone to display
   optional: true
@@ -66,14 +63,13 @@ custom_fields:
     - time_zone_3
 - keyname: name_2
   field_type: string
+  default: ''
   name: Time Zone 2 Name
   description: Name of this time zone, e.g. Work
-  default: Japan
-  placeholder: Work
   optional: true
 - keyname: time_zone_3
   field_type: time_zone
-  default: Europe/London
+  default: ''
   name: Time Zone 3
   description: Time zone to display
   optional: true
@@ -84,14 +80,13 @@ custom_fields:
     - time_zone_4
 - keyname: name_3
   field_type: string
+  default: ''
   name: Time Zone 3 Name
   description: Name of this time zone, e.g. Work
-  placeholder: Work
-  default: Silicon Valley
   optional: true
 - keyname: time_zone_4
   field_type: time_zone
-  default: America/Los_Angeles
+  default: ''
   name: Time Zone 4
   description: Time zone to display
   optional: true
@@ -102,10 +97,9 @@ custom_fields:
     - time_zone_5
 - keyname: name_4
   field_type: string
+  default: ''
   name: Time Zone 4 Name
   description: Name of this time zone, e.g. Work
-  placeholder: Work
-  default: Melbourne
   optional: true
 - keyname: time_zone_5
   field_type: time_zone
@@ -120,9 +114,9 @@ custom_fields:
     - time_zone_6
 - keyname: name_5
   field_type: string
+  default: ''
   name: Time Zone 5 Name
   description: Name of this time zone, e.g. Work
-  placeholder: Work
   optional: true
 - keyname: time_zone_6
   field_type: time_zone
@@ -136,9 +130,9 @@ custom_fields:
     - name_6
 - keyname: name_6
   field_type: string
+  default: ''
   name: Time Zone 6 Name
   description: Name of this time zone, e.g. Work
-  placeholder: Work
   optional: true
 name: Huy's Horizontal World Clock
 refresh_interval: 60
